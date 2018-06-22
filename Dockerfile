@@ -1,5 +1,5 @@
 FROM node:8-alpine
 
-RUN yarn global add marked
+RUN npm install -g marked
 
 CMD [ "node" ]
